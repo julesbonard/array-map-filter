@@ -21,8 +21,11 @@ En sortie: [
 
  */
 
-function getStringsLength(strings) {
-}
+
+function getStringsLength (str) {
+    return jsp = str.map(nique => {return nique + ' contains ' + nique.length + ' characters'});
+};
+
 
 // Si besoin, tu peux toujours visualiser le résultat avec console.log,
 // mais alors, il faut alors lancer l'exercice avec node map/ex1

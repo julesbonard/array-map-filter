@@ -43,8 +43,12 @@ En sortie: [
  */
 
 function getFoodCategories(foods) {
+  return str = foods.map(food => {
+    return isVegetarian === true ? `${food} is suitable for vegetarians` : `${food} is not suitable for vegetarians`;
+  })
 }
-
+const vrai = foods.filter(food)
+console.log(getFoodCategories([{food: 'sffds' === true }, {isVegetarian: 'ezfz' === false}]));
 
 
 // Ne pas modifier l'export
