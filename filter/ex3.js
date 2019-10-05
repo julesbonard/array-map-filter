@@ -28,9 +28,21 @@ Sortie attendue:
   ]
  */
 
+
+
 function filterOnPrice(products, maxPrice) {
-  
+  return jsp = products.filter(okdac => {
+    if (okdac.price <= maxPrice){
+      return okdac;
+    }
+  })
 }
+
+
+// maxPrice= 500;
+// console.log(filterOnPrice([{name: 'zizi', price: 440}, {name: 'Xiaomi Mi A2', price: 649}, {name: 'Samsung Galaxy Note 9', price: 992}]));
+
+
 
 // Ne pas modifier l'export
 module.exports = filterOnPrice;
