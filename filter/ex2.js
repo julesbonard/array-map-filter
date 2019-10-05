@@ -24,7 +24,16 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  return goodName = names.filter(jsp => {
+    if (jsp.endsWith('Stark') === true){
+      return jsp;
+    }
+  })
 }
+
+
+// console.log(keepStarks(['fds Stark', 'dsf fe Stark', 'sefsf', 'sef', 'dsf Stark']));
+
 
 // Ne pas modifier l'export
 module.exports = keepStarks;
